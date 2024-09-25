@@ -58,7 +58,7 @@ resource "aws_security_group" "Jenkins-sg" {
   }
 }
 
-resource "aws_instance" "Jenkins-Nikhil" {
+resource "aws_instance" "Jenkins" {
   ami                    = "ami-0a0e5d9c7acc336f1"
   instance_type          = "t2.large"
   key_name               = "Virginia"
